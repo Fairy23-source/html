@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+</head>
+<body>
+
+<h2>Registration Form</h2>
+
+<form>
+
+    <!-- Name -->
+    <label>Full Name:</label><br>
+    <input type="text" name="fullname"><br><br>
+
+    <!-- Email -->
+    <label>Email:</label><br>
+    <input type="email" name="email"><br><br>
+
+    <!-- Password -->
+    <label>Password:</label><br>
+    <input type="password" name="password"><br><br>
+
+    <!-- Gender (Radio Buttons) -->
+    <label>Gender:</label><br>
+    <input type="radio" name="gender" value="Male"> Male<br>
+    <input type="radio" name="gender" value="Female"> Female<br>
+    <input type="radio" name="gender" value="Other"> Other<br><br>
+
+    <!-- Course (Dropdown) -->
+    <label>Course:</label><br>
+    <select name="course">
+        <option value="">Select Course</option>
+        <option value="BCA">BCA</option>
+        <option value="BSC">BSC</option>
+        <option value="BTECH">BTECH</option>
+        <option value="MCA">MCA</option>
+    </select><br><br>
+
+    <!-- Hobbies (Checkboxes) -->
+    <label>Hobbies:</label><br>
+    <input type="checkbox" name="hobby" value="Reading"> Reading<br>
+    <input type="checkbox" name="hobby" value="Sports"> Sports<br>
+    <input type="checkbox" name="hobby" value="Music"> Music<br>
+    <input type="checkbox" name="hobby" value="Traveling"> Traveling<br><br>
+
+    <!-- Address -->
+    <label>Address:</label><br>
+    <textarea rows="4" cols="30"></textarea><br><br>
+
+    <!-- Submit -->
+    <input type="submit" value="Register">
+    <input type="reset" value="Reset">
+
+</form>
+
+</body>
+</html>
