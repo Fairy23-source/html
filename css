@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Basics Program</title>
+
+    <!-- Internal CSS -->
+    <style>
+        /* ID selector */
+        #main-heading {
+            color: darkblue;
+            font-size: 32px;
+            text-align: center;
+        }
+
+        /* Class selector */
+        .paragraph {
+            color: green;
+            font-size: 18px;
+            text-align: center;
+        }
+
+        /* Box styling */
+        .box {
+            background-color: orange;
+            color: white;
+            width: 300px;
+            padding: 20px;
+            margin: 30px auto;
+            border: 3px solid black;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        /* Body background */
+        body {
+            background-color: #f2f2f2;
+            font-family: Arial;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1 id="main-heading">Welcome to CSS</h1>
+
+    <p class="paragraph">
+        This paragraph is styled using a CSS class.
+    </p>
+
+    <div class="box">
+        This is a styled box using CSS
+    </div>
+
+</body>
+</html>
